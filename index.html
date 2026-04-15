@@ -82,8 +82,177 @@
           </table>
           
          </body>
+  <head>
+    <title>About Myself</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial;
+            margin: 20px;
+        }
 
-    </html>
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-rows: auto auto auto auto;
+            gap: 20px;
+        }
+
+        .row1 {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .contacts {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            align-items: center;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 16px;
+        }
+
+        i {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>About Myself</h1>
+
+<div class="container">
+
+    <div class="row1">
+        <img src="karstenpfp.jpg" class="profile-pic">
+        <div>
+            <h2>My Biography</h2>
+            <p>
+                My name is Bukenya Nolan Karsten, a student at Kyambogo University doing a Bachelor of Information Technology and Computing. 
+                I enjoy exploring new technologies as well as music production and DJing
+            </p>
+        </div>
+    </div>
+
+   <div>
+    <h3>Education, Skills and Hobbies</h3>
+    <table>
+        <tr>
+            <th>Education</th>
+            <th>Skills & Hobbies</th>
+        </tr>
+
+        <tr>
+            <td>
+                KinderKare Pre Primary School (2006–2009)<br>
+                Daffodils Primary School (2010–2016)<br>
+                Uganda Martyrs SS Namugongo (2017–2023)<br>
+                Kyambogo University, BITC (2024–2027)
+            </td>
+
+            <td>
+                <strong>Skills</strong>
+                <ul>
+                    <li>Producing Music</li>
+                    <li>DJing</li>
+                    <li>Coding</li>
+                </ul>
+
+                <strong>Hobbies</strong>
+                <ul>
+                    <li>Listening to Music</li>
+                    <li>Gaming</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</div>
+
+    <div>
+        <h3>My Weekly Activities</h3>
+        <table>
+            <tr>
+                <th>Day</th>
+                <th>Activity</th>
+            </tr>
+
+            <tr>
+                <td>Monday</td>
+                <td>Coding Practice</td>
+            </tr>
+
+            <tr>
+                <td>Tuesday</td>
+                <td>Listening to Music</td>
+            </tr>
+
+            <tr>
+                <td>Wednesday</td>
+                <td>Music Production</td>
+            </tr>
+
+            <tr>
+                <td>Thursday</td>
+                <td>Gaming</td>
+            </tr>
+
+            <tr>
+                <td>Friday</td>
+                <td>DJ Practice</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="contacts">
+        <div class="contact-item">
+            <i class="fab fa-whatsapp"></i>
+            <span>+256701577733</span>
+        </div>
+
+        <div class="contact-item">
+            <i class="fab fa-instagram"></i>
+            <span>@karstennorlan</span>
+        </div>
+
+        <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>karstenbukenya@gmail.com</span>
+        </div>
+    </div>
+
+  </div>
+
+</body>
+            
+</html>
 
 
 
